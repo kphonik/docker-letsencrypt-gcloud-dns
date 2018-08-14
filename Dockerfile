@@ -14,6 +14,7 @@ ENV GCE_PROJECT=example-project
 ENV GCE_DOMAIN="example.com"
 ENV EMAIL=certmaster@example.com
 ENV DOMAINS=example.com,test.example.com
+ENV LEGO_OPTS=""
 
 COPY ./entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
